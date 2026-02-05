@@ -1,0 +1,9 @@
+EvilHack stores save files in the user's home directory.
+
+If you changed the save directory manually and encounter permission issues,
+you may need to adjust ownership, for example:
+
+  chown -R youruser:yourgroup ~/games
+
+This should NOT be done automatically by the package.
+
